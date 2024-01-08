@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: rhdh-gf-101
+  labels: 
+    component: backstage-workloads
+  annotations:
+    quay.io/repository-slug: janus-idp/backstage-showcase
+    backstage.io/kubernetes-id: my-backstage
+    janus-idp.io/tekton-enabled: 'true'
+    janus-idp.io/tekton: my-backstage
+    #dev.azure.com/project-repo: my-project/my-repo
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: janus-idp/backstage-showcase
+    'jfrog-artifactory/image-name': 'test'
+    nexus-repository-manager/docker.image-name: sonatype/nexus3
+spec:
+  type: service
+  lifecycle: unknown
+  owner: Gerry-Forde
