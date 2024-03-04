@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backstage-showcase
-  title: Backstage Showcase
+  name: backstage-showcase-gf
+  title: Backstage Showcase GF
   description: |
     This is the Janus Community Showcase of Backstage.io
   links:
