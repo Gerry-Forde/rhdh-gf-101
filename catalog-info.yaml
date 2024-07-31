@@ -15,8 +15,8 @@ metadata:
     # 'jfrog-artifactory/image-name': 'test'
     # nexus-repository-manager/docker.image-name: sonatype/nexus3
   links:
-    - title: Website
-      url: http://backstage.io
+    - title: RHDH Docs Confluence Page
+      url: https://spaces.redhat.com/display/RHDEVDOCS/Red+Hat+Developer+Hub
     - title: Documentation
       url: https://backstage.io/docs
 spec:
