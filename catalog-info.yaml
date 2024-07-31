@@ -14,6 +14,11 @@ metadata:
     # github.com/project-slug: janus-idp/backstage-showcase
     # 'jfrog-artifactory/image-name': 'test'
     # nexus-repository-manager/docker.image-name: sonatype/nexus3
+  links:
+    - title: Website
+      url: http://backstage.io
+    - title: Documentation
+      url: https://backstage.io/docs
 spec:
   type: service
   lifecycle: unknown
