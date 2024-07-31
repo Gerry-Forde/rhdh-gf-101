@@ -10,7 +10,7 @@ metadata:
     # janus-idp.io/tekton-enabled: 'true'
     # janus-idp.io/tekton: my-backstage
     # dev.azure.com/project-repo: my-project/my-repo
-    # backstage.io/techdocs-ref: dir:.
+    backstage.io/techdocs-ref: dir:.
     # github.com/project-slug: janus-idp/backstage-showcase
     # 'jfrog-artifactory/image-name': 'test'
     # nexus-repository-manager/docker.image-name: sonatype/nexus3
